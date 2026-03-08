@@ -2,13 +2,11 @@
 
 This is a project applying core mathematical techniques — calculus, integration, series, and transforms — to real-world urban transportation problems, with a focus on bus and taxi systems in a city context.
 
----
 
 ## Overview
 
 This project explores how mathematics can model, analyse, and optimise urban transport systems. Each section tackles a distinct problem using a different mathematical tool, implemented in Python.
 
----
 
 ## Contents
 
@@ -27,7 +25,6 @@ Applies the Fast Fourier Transform (FFT) to synthetic bus and taxi boarding coun
 ### 5. Image Processing Using Fourier and Discrete Cosine Transforms
 Processes a vehicle licence plate image using 2D FFT and DCT. Covers grayscale conversion, frequency domain analysis, edge detection, and basic plate localisation — connecting the results to real-time traffic management applications.
 
----
 
 ## Requirements
 
@@ -44,8 +41,6 @@ Install dependencies with:
 pip install numpy matplotlib sympy scipy
 ```
 
----
-
 ## Usage
 
 Open the notebook in Jupyter:
@@ -56,7 +51,6 @@ jupyter notebook Urban_Transport_Mathematical_Modelling.ipynb
 
 > **Note:** Section 5 requires a `vehicle_plate.png` image file to be present in the same directory as the notebook.
 
----
 
 ## Key Techniques
 
